@@ -167,7 +167,7 @@ white()
 for i = 1,8 do
     local x = i
 white()
-    printToSide("left", x.." Laser Overclock")
+    printToSide("left", x.." Laser Overclock:")
     local ampPerMachine = laserOCAmpMultiplier(x) * sliceCount
     local totalAmps = ampPerMachine * machineCount
 orange()
@@ -187,7 +187,7 @@ end
 for i = 9,17 do
     local x = i
 white()
-    printToSide("right", x.." Laser Overclock")
+    printToSide("right", x.." Laser Overclock:")
     local ampPerMachine = laserOCAmpMultiplier(x) * sliceCount
     local totalAmps = ampPerMachine * machineCount
 orange()
